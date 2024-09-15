@@ -42,6 +42,7 @@ public class Cricket {
         System.out.println("Total Score: " + total);
         System.out.println("Total Dot balls: " + dot_ball);
         System.out.println("Highest score in a ball: " + arr[high]);
+        in.close();
 
     }
 }
