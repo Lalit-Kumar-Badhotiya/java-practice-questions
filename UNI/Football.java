@@ -33,10 +33,15 @@ public class Football {
             "steve" };
 
     public static void main(String[] args) {
+        Football f = new Football();
+        System.out.println(f.find("john"));
+        display();
+        change(1);
+        display();
 
     }
 
-    static boolean find(String name) {
+    boolean find(String name) {
         for (String i : lineup) {
             if (i == name) {
                 return true;
@@ -46,11 +51,17 @@ public class Football {
         return false;
     }
 
-    void display() {
+    static void display() {
         int j = 1;
         for (String i : lineup) {
             System.out.println("Player " + j + " : " + i);
             j++;
         }
     }
+
+    static void change(int num) {
+        num--;
+        lineup[num] = "luke";
+    }
+
 }

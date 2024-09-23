@@ -1,20 +1,17 @@
+//Write a program to find the factorial value of any number 
+
 import java.util.Scanner;
 
 public class Fact {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
+        Scanner in = new Scanner(System.in);
         System.out.print("Enter the number: ");
-        int number = scanner.nextInt();
-
-        long factorial = 1;
-
+        int number = in.nextInt();
+        long fact = 1;
         for (int i = 1; i <= number; i++) {
-            factorial *= i;
+            fact *= i;
         }
-
-        System.out.println("The factorial is " + factorial);
-
-        scanner.close();
+        System.out.println("The fact is " + fact);
+        in.close();
     }
 }

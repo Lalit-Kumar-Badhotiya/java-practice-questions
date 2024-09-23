@@ -9,9 +9,9 @@ public class Calculator {
         System.out.println("Choose an operator: +, -, *, or /");
         String operator = scanner.next();
 
-        System.out.println("Enter the 1 no");
+        System.out.println("Enter 1 no");
         int no1 = scanner.nextInt();
-        System.out.println("Enter the 2 no");
+        System.out.println("Enter 2 no");
         int no2 = scanner.nextInt();
 
         switch (operator) {
@@ -27,8 +27,6 @@ public class Calculator {
             case "/":
                 System.out.println(no1 / no2);
                 break;
-            default:
-
         }
         scanner.close();
 

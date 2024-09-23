@@ -5,22 +5,22 @@ import java.util.Scanner;
 public class CheckEquality {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
-        System.out.println("Enter the first number:");
-        int num1 = scanner.nextInt();
+        System.out.println("Enter first number:");
+        int num1 = in.nextInt();
 
-        System.out.println("Enter the second number:");
-        int num2 = scanner.nextInt();
+        System.out.println("Enter second number:");
+        int num2 = in.nextInt();
 
-        System.out.println("Enter the third number:");
-        int num3 = scanner.nextInt();
+        System.out.println("Enter third number:");
+        int num3 = in.nextInt();
 
         if (num1 == num2 && num2 == num3) {
-            System.out.println("All numbers are equal.");
+            System.out.println("Equal");
         } else {
-            System.out.println("All numbers are not equal.");
+            System.out.println("Not Equal");
         }
-        scanner.close();
+        in.close();
     }
 }
