@@ -1,10 +1,11 @@
+
 public class Static_keyword {
     static int a = 0;
-    int bc;
+    int b;
 
     Static_keyword(int b) {
         a++;
-        bc = b;
+        this.b = b;
 
     }
 
