@@ -10,5 +10,4 @@ public class Area_Of_Rhombus{
         System.out.println(base*height);
         in.close();
     }
-
 }
