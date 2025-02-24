@@ -11,4 +11,3 @@ public class Area_Of_Rhombus{
         in.close();
     }
 }
-
