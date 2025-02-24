@@ -7,7 +7,6 @@
 
 
 
-
 //7. Area Of Equilateral Triangle
 import java.util.Scanner;
 public class Area_Of_Equilateral_Triangle{
