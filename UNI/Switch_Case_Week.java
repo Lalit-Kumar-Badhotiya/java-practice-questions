@@ -12,7 +12,6 @@
 
 
 
-
 //create a program using switch case statement to identify the day of the week.
 
 import java.util.Scanner;
