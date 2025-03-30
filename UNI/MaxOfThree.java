@@ -1,5 +1,3 @@
-//WAP to find maximum of three numbers. 
-
 import java.util.Scanner;
 
 public class MaxOfThree {
@@ -17,7 +15,7 @@ public class MaxOfThree {
             System.out.println("Largest number is:" + b);
         } else {
             System.out.println("Largest number is:" + c);
-            in.close();
         }
+        in.close();
     }
 }
