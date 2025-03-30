@@ -1,4 +1,4 @@
-class LinearQueue {
+public class LinearQueue {
     private int[] arr;
     private int front, rear, capacity;
 
