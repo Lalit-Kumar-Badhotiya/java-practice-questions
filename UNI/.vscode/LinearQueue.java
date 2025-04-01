@@ -34,14 +34,6 @@ public class LinearQueue {
         return arr[front++];
     }
 
-    public int peek() {
-        if (isEmpty()) {
-            System.out.println("Queue is empty. Nothing to peek.");
-            return -1;
-        }
-        return arr[front];
-    }
-
     public void display() {
         if (isEmpty()) {
             System.out.println("Queue is empty.");
@@ -52,6 +44,14 @@ public class LinearQueue {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
+    }
+
+    public int peek() {
+        if (isEmpty()) {
+            System.out.println("Queue is empty. Nothing to peek.");
+            return -1;
+        }
+        return arr[front];
     }
 
     public static void main(String[] args) {
