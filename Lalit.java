@@ -1,4 +1,3 @@
-
 public class Lalit {
 
     public static void main(String[] args) {
