@@ -1,3 +1,4 @@
+
 // calculate Commission percentage
 import java.util.Scanner;
 public class Commission_calculator {
