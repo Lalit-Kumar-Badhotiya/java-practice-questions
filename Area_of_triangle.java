@@ -1,5 +1,6 @@
 //2. Area Of Triangle
 
+
 import java.util.Scanner;
 public class Area_of_triangle {
     public static void main(String[] args) {
