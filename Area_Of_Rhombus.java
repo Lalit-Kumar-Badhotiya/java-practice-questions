@@ -1,3 +1,4 @@
+
 //6. Area Of Rhombus
 import java.util.Scanner;
 public class Area_Of_Rhombus{
