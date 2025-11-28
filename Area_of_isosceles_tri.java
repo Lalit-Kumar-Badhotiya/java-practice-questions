@@ -1,3 +1,4 @@
+
 //4. Area Of Isosceles Triangle 
 import java.util.Scanner;
 public class Area_of_isosceles_tri {
