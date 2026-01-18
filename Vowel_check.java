@@ -1,3 +1,4 @@
+
 public class Vowel_check {
     public static void main(String[] args) {
 
