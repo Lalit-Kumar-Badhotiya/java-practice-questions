@@ -1,3 +1,4 @@
+
 //23. Input a number and print all the factors of that number (use loops).
 import java.util.Scanner;
 public class Print_all_factors {
